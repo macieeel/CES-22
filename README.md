@@ -6,5 +6,6 @@ Aluno: Victor Maciel, T24.2
 
 ## Conteúdos:
 <!--ts-->
-* *Lista 1*: Lista de exercícios em Python
+* *Lista 1*: Lista de exercícios básicos em Python
+* *Lista 2*: Lista de exercícios em Python usando biblioteca turtle, conceito de estado, key binding e countdown
 <!--te-->
