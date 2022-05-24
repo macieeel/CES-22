@@ -11,4 +11,5 @@ Aluno: Victor Maciel, T24.2
 -   _Lista 1_: Lista de exercícios básicos em Python
 -   _Lista 2_: Lista de exercícios em Python usando biblioteca turtle, conceito de estado, key binding e countdown
 -   _Lista 3_: Lista de exercícios em Python usando classes com métodos abstratos, de instância, de classe e estáticos, bem como conceitos de decoradores e herança múltipla
+-   _Lista 4_: Exercício em Python aplicando os princípios SOLID
 <!--te-->
