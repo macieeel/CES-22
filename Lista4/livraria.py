@@ -2,8 +2,6 @@ from abc import ABC, abstractmethod
 
 
 class Livraria_Setor(ABC):
-    def __init__(self, elemento):
-        self.elemento = elemento
 
     @abstractmethod
     def inserir(self, elemento):
@@ -18,7 +16,7 @@ class Livraria_Setor(ABC):
         pass
 
     @abstractmethod
-    def alterar(self, elemento, novo_elemento):
+    def alterar(self, elemento, elemento_alterado):
         pass
 
 

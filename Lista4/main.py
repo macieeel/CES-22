@@ -1,4 +1,5 @@
 
+from produtos import Imposto2
 from livraria import Livraria
 from produtos import Livro
 from pessoas import Cliente, Autor
@@ -21,7 +22,7 @@ if __name__ == '__main__':
     Livro3 = Livro("Harry Potter e a Pedra Filosofal",
                    JKRowling, '', '', 20, 0)
     Livro4 = Livro("Silmarillion", Tolkien, '', '', 79.9, 0)
-    Livro5 = Livro("O Hobbit", Tolkien, '', '', 45.5, 0)
+    Livro5 = Livro("O Hobbit", Tolkien, '', '', 45.5, 0, Imposto2)
 
     # clientes
     Cultura.setor_clientes.inserir(Victor)
@@ -53,3 +54,6 @@ if __name__ == '__main__':
     Cultura.setor_compras.inserir(Compra3)
     Cultura.setor_compras.inserir(Compra4)
     Cultura.setor_compras.listar()
+
+    Livro5.get_imposto()
+    Livro4.get_imposto()
